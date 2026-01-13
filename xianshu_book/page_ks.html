@@ -103,10 +103,10 @@
 </head>
 <body>
     <div class="profile-container">
-        <button class="back-button" onclick="window.location.href='index.html'">返回目录</button>
+        <button class="back-button" onclick="window.location.href='directory.html'">返回目录</button>
         
         <div class="character-image">
-            <img src="images/portraits/[character_id].png" alt="剑圣Kensei">
+            <img src="images/portraits/ks.png" alt="剑圣Kensei">
         </div>
         
         <div class="character-info">
@@ -140,7 +140,7 @@
         
         // 如果直接访问，跳回封面
         if (!sessionStorage.getItem('hasEnteredFromCover')) {
-            window.location.href = 'cover.html';
+            window.location.href = 'index.html';
         }
     </script>
 </body>

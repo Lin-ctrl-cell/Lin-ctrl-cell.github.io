@@ -202,6 +202,7 @@
             <p>
                 故事带有笔者一定主观色彩，如有不实为笔者资料查证不清，如有人物形象塑造问题为笔者全责，请不要上升真人，引起本站提及人物的困扰。"仙术杯"比赛实为友好交流、共同促进游戏体验的玩家自建赛事平台，维护良好讨论环境是你我的分内之事，愿与诸君共勉。
             </p>
+            <p>本站为无盈利网站，除原创素材外，部分素材来源于《明日方舟》官方发布内容及二创。再此感谢所有素材提供者，如有不当，可联系作者删除。</p>
             <button id="close-disclaimer">返回目录</button>
         </div>
     </div>
@@ -268,7 +269,7 @@
                     // 直接跳转回目录
                     setTimeout(function() {
                         console.log('跳转回目录页');
-                        window.location.href = 'index.html';
+                        window.location.href = 'directory.html';
                     }, 300);
                 });
                 
@@ -282,7 +283,7 @@
         // 刷新控制 - 如果直接访问此页，跳回封面
         if (!sessionStorage.getItem('hasEnteredFromCover')) {
             console.log('检测到直接访问主线故事页，跳回封面');
-            window.location.href = 'cover.html';
+            window.location.href = 'index.html';
         }
     </script>
 </body>
